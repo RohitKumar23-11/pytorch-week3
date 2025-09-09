@@ -138,11 +138,6 @@ This will:
 
 * **Code:** clean, from primitives (no `torchvision.models`, no `nn.Transformer`)
 * **Figures:** stored in `runs/cls/` and `runs/mt/`
-* **Reports:**
-
-  * `report/onepage_visual.md`: one-page visual summary
-  * `report/detailed_report.md`: key learnings, challenges, references
-
 ---
 
 ## 📚 References
@@ -163,7 +158,6 @@ This will:
 * [x] Grad-CAM visualizations highlight discriminative regions
 * [x] Transformer reaches ≥15 BLEU score on toy dataset
 * [x] Attention heatmaps are interpretable
-* [x] Repo contains one-page visual report
 
 ---
 
