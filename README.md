@@ -12,15 +12,15 @@ Deep Learning Architectures from Scratch in PyTorch
 pytorch-week3/
 │
 ├── code/
-│   ├── resnet\_cifar10.py        # ResNet-18 for CIFAR-10
-│   ├── transformer\_toy.py       # Minimal Transformer for toy MT
+│   ├── resnet_cifar10.py        # ResNet-18 for CIFAR-10
+│   ├── transformer_toy.py       # Minimal Transformer for toy MT
 │
 ├── runs/
 │   ├── cls/                     # ResNet outputs
-│   │   ├── curves\_cls.png
-│   │   ├── confusion\_matrix.png
-│   │   ├── preds\_grid.png
-│   │   ├── miscls\_grid.png
+│   │   ├── curves_cls.png
+│   │   ├── confusion_matrix.png
+│   │   ├── preds_grid.png
+│   │   ├── miscls_grid.png
 │   │   ├── gradcam\_0.png ...
 │   │
 │   └── mt/                      # Transformer outputs
