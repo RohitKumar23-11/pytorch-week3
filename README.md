@@ -12,8 +12,8 @@ Deep Learning Architectures from Scratch in PyTorch
 pytorch-week3/
 │
 ├── code/
-│   ├── resnet\_cifar10.py        # ResNet-18 for CIFAR-10
-│   ├── transformer\_toy.py       # Minimal Transformer for toy MT
+│   ├── PyTorch-code-ICFAR10.ipynb        # ResNet-18 for CIFAR-10
+│   ├── PyTorch_Transformer.ipynb       # Minimal Transformer for toy MT
 │
 ├── runs/
 │   ├── cls/                     # ResNet outputs
