@@ -7,7 +7,8 @@ This document provides a compact, figure-driven overview of our two deep learnin
 ## 🖼️ ResNet-18 (CIFAR-10)
 
 - **Training & Validation Curves**  
-![Training/Validation Loss & Accuracy](runs/cls/curves_cls.png)
+![Training/Validation Loss & Accuracy](runs/cls/curves_cls.png) 
+![Training/Validation Loss & Accuracy]([runs/cls/curves_cls.png](https://github.com/RohitKumar23-11/pytorch-week3/blob/main/runs/cls/curves_cls.png))
 
 - **Confusion Matrix (Normalized)**  
 ![Confusion Matrix](runs/cls/confusion_matrix.png)
