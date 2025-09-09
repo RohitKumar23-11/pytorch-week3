@@ -12,15 +12,16 @@ Deep Learning Architectures from Scratch in PyTorch
 pytorch-week3/
 │
 ├── code/
-│   ├── resnet_cifar10.py        # ResNet-18 for CIFAR-10
-│   ├── transformer_toy.py       # Minimal Transformer for toy MT
+│   ├── resnet\_cifar10.py        # ResNet-18 for CIFAR-10
+│   ├── transformer\_toy.py       # Minimal Transformer for toy MT
+│   ├── utils.py                 # Shared utilities (plots, metrics, Grad-CAM)
 │
 ├── runs/
 │   ├── cls/                     # ResNet outputs
-│   │   ├── curves_cls.png
-│   │   ├── confusion_matrix.png
-│   │   ├── preds_grid.png
-│   │   ├── miscls_grid.png
+│   │   ├── curves\_cls.png
+│   │   ├── confusion\_matrix.png
+│   │   ├── preds\_grid.png
+│   │   ├── miscls\_grid.png
 │   │   ├── gradcam\_0.png ...
 │   │
 │   └── mt/                      # Transformer outputs
@@ -30,7 +31,11 @@ pytorch-week3/
 │       ├── decodes\_table.png
 │       ├── bleu\_report.png
 │
-└── README.md                    
+├── report/
+│   ├── onepage\_visual.md        # One-page summary with figures
+│   └── detailed\_report.md       # Longer writeup (sources, insights, notes)
+│
+└── README.md                    # This file
 
 ````
 
@@ -138,6 +143,11 @@ This will:
 
 * **Code:** clean, from primitives (no `torchvision.models`, no `nn.Transformer`)
 * **Figures:** stored in `runs/cls/` and `runs/mt/`
+* **Reports:**
+
+  * `report/onepage_visual.md`: one-page visual summary
+  * `report/detailed_report.md`: key learnings, challenges, references
+
 ---
 
 ## 📚 References
@@ -158,9 +168,13 @@ This will:
 * [x] Grad-CAM visualizations highlight discriminative regions
 * [x] Transformer reaches ≥15 BLEU score on toy dataset
 * [x] Attention heatmaps are interpretable
+* [x] Repo contains one-page visual report
 
 ---
 
 ## 👩‍💻 Author
 
 **Rohit Kumar**
+
+
+```
