@@ -14,7 +14,6 @@ pytorch-week3/
 ├── code/
 │   ├── resnet\_cifar10.py        # ResNet-18 for CIFAR-10
 │   ├── transformer\_toy.py       # Minimal Transformer for toy MT
-│   ├── utils.py                 # Shared utilities (plots, metrics, Grad-CAM)
 │
 ├── runs/
 │   ├── cls/                     # ResNet outputs
