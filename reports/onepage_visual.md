@@ -10,38 +10,38 @@ This document provides a compact, figure-driven overview of our two deep learnin
 ![Training/Validation Loss & Accuracy](../runs/cls/curves_cls.png) 
 
 - **Confusion Matrix (Normalized)**  
-![Confusion Matrix](runs/cls/confusion_matrix.png)
+![Confusion Matrix](../runs/cls/confusion_matrix.png)
 
 - **Correct Predictions Grid**  
-![Correct Predictions](runs/cls/preds_grid.png)
+![Correct Predictions](../runs/cls/preds_grid.png)
 
 - **Misclassified Predictions Grid**  
-![Incorrect Predictions](runs/cls/miscls_grid.png)
+![Incorrect Predictions](../runs/cls/miscls_grid.png)
 
 - **Grad-CAM Heatmaps (Class-Specific Explanations)**  
 Example Grad-CAM visualizations for CIFAR-10 samples:  
-![Grad-CAM Example](runs/cls/gradcam_sample1.png)  
-![Grad-CAM Example](runs/cls/gradcam_sample2.png)
+![Grad-CAM Example](../runs/cls/gradcam_sample1.png)  
+![Grad-CAM Example](../runs/cls/gradcam_sample2.png)
 
 ---
 
 ## 🌐 Transformer (Toy Translation)
 
 - **Loss Curve (Training & Validation)**  
-![Loss/Perplexity](runs/mt/curves_mt.png)
+![Loss/Perplexity](../runs/mt/curves_mt.png)
 
 - **Attention Heatmaps (Multiple Heads/Layers)**  
-![Attention Heatmap](runs/mt/attention_layer1_head1.png)  
-![Attention Heatmap](runs/mt/attention_layer2_head2.png)
+![Attention Heatmap](../runs/mt/attention_layer1_head1.png)  
+![Attention Heatmap](../runs/mt/attention_layer2_head2.png)
 
 - **Mask Visualization**  
-![Mask Visualization](runs/mt/masks_demo.png)
+![Mask Visualization](../runs/mt/masks_demo.png)
 
 - **Decoded Outputs vs Ground Truth**  
-![Decoded Table](runs/mt/decodes_table.png)
+![Decoded Table](../runs/mt/decodes_table.png)
 
 - **Corpus BLEU Score Summary**  
-![BLEU Report](runs/mt/bleu_report.png)
+![BLEU Report](../runs/mt/bleu_report.png)
 
 ---
 
